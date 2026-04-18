@@ -1,0 +1,143 @@
+/* ===== GLOBAL ===== */
+body {
+    background: linear-gradient(135deg, #eef2f7, #f8fbff);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 260px;
+    background: linear-gradient(180deg, #0d6efd, #0b5ed7, #084298);
+    color: white;
+}
+
+.sidebar .offcanvas-header {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.menu-item {
+    display: block;
+    padding: 14px 22px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    border-left: 4px solid transparent;
+}
+
+.menu-item:hover {
+    background: rgba(255,255,255,0.15);
+    padding-left: 28px;
+    border-left: 4px solid white;
+}
+
+/* ===== CONTENT ===== */
+.content-wrapper {
+    min-height: 100vh;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* ===== CARD ===== */
+.custom-card {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+    border: none;
+    background: white;
+    box-shadow:
+        0 10px 30px rgba(13,110,253,0.08),
+        0 2px 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-2px);
+}
+
+/* ===== HEADER ===== */
+.header-primary {
+    background: linear-gradient(90deg, #0d6efd, #4dabf7);
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 18px 25px;
+    letter-spacing: 0.5px;
+}
+
+/* ===== INFO ROW ===== */
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 10px;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.2s ease;
+}
+
+.info-row:hover {
+    background: #f8fbff;
+}
+
+.label-title {
+    font-weight: 600;
+    width: 220px;
+    color: #6c757d;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.value-text {
+    font-weight: 600;
+    color: #0d6efd;
+    font-size: 16px;
+}
+
+/* ===== INPUT ===== */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #dbe4ff;
+    transition: all 0.2s ease;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 3px rgba(13,110,253,0.15);
+}
+
+/* ===== BUTTON AREA ===== */
+.button-area {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.button-area .btn {
+    border-radius: 10px;
+    padding: 8px 18px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.button-area .btn-primary {
+    background: linear-gradient(90deg, #0d6efd, #4dabf7);
+    border: none;
+}
+
+.button-area .btn-primary:hover {
+    opacity: 0.9;
+}
+
+.button-area .btn-success {
+    background: linear-gradient(90deg, #198754, #20c997);
+    border: none;
+}
+
+.button-area .btn-success:hover {
+    opacity: 0.9;
+}
+
+

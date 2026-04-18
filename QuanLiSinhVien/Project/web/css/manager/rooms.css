@@ -1,0 +1,127 @@
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 260px;
+    background: linear-gradient(180deg, #0d6efd, #0b5ed7, #084298);
+    color: white;
+}
+
+.sidebar .offcanvas-header {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.menu-item {
+    display: block;
+    padding: 14px 22px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    border-left: 4px solid transparent;
+}
+
+.menu-item:hover {
+    background: rgba(255,255,255,0.15);
+    padding-left: 28px;
+    border-left: 4px solid white;
+}
+
+.room-container{
+    max-width:1100px;
+    margin-top:30px;
+}
+
+.room-card{
+    border-radius:14px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+    overflow:hidden;
+}
+
+/* HEADER */
+
+.room-header{
+    background:linear-gradient(135deg,#4e73df,#224abe);
+    color:white;
+    padding:18px 20px;
+}
+
+/* TOOLBAR */
+
+.room-toolbar{
+    display:flex;
+    gap:10px;
+    padding:20px;
+    flex-wrap:wrap;
+}
+
+.search-box{
+    flex:1;
+    min-width:220px;
+}
+
+.filter-box{
+    width:150px;
+}
+
+.btn-search{
+    background:#4e73df;
+    color:white;
+}
+
+/* TABLE */
+
+.room-table th{
+    background:#f8f9fc;
+    font-weight:600;
+}
+
+.room-id{
+    font-weight:600;
+}
+
+/* OCCUPANCY BAR */
+
+.occupancy{
+    width:140px;
+}
+
+.progress{
+    height:8px;
+    background:#eee;
+}
+
+.progress-bar{
+    background:#1cc88a;
+}
+
+/* PRICE */
+
+.price{
+    color:#e74a3b;
+    font-weight:600;
+}
+
+/* STATUS */
+
+.badge-status{
+    padding:5px 10px;
+    border-radius:8px;
+    font-size:12px;
+}
+
+.badge-status.AVAILABLE{
+    background:#d4edda;
+    color:#155724;
+}
+
+.badge-status.FULL{
+    background:#f8d7da;
+    color:#721c24;
+}
+
+/* BUTTON */
+
+.btn-view{
+    background:#f6c23e;
+    color:white;
+}

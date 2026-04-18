@@ -1,0 +1,121 @@
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 260px;
+    background: linear-gradient(180deg, #0d6efd, #0b5ed7, #084298);
+    color: white;
+}
+
+.sidebar .offcanvas-header {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.menu-item {
+    display: block;
+    padding: 14px 22px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    border-left: 4px solid transparent;
+}
+
+.menu-item:hover {
+    background: rgba(255,255,255,0.15);
+    padding-left: 28px;
+    border-left: 4px solid white;
+}
+/* PAGE BACKGROUND */
+body{
+    background: linear-gradient(135deg,#eef2f7,#d9e4f5);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+
+/* CONTENT CENTER */
+.content{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:40px;
+}
+
+
+/* MAIN CONTAINER */
+.student-container{
+    width:100%;
+    max-width:1000px;
+}
+
+
+/* TITLE */
+.page-title{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.page-title h2{
+    font-weight:700;
+    color:#2c3e50;
+}
+
+.page-title p{
+    color:#6c757d;
+}
+
+
+/* CARD STYLE */
+.card-custom{
+    border:none;
+    border-radius:14px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+
+/* SEARCH BOX */
+.search-box{
+    padding:20px;
+}
+
+
+/* TABLE */
+.table{
+    margin:0;
+}
+
+.table thead{
+    background:#0d6efd;
+    color:white;
+}
+
+.table th{
+    text-align:center;
+    vertical-align:middle;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+
+/* BUTTON */
+.btn-primary{
+    border-radius:8px;
+    font-weight:500;
+}
+
+
+/* EMPTY DATA */
+.no-data{
+    padding:30px;
+    color:#6c757d;
+}
+.content{
+    width:100%;
+    min-height:100vh;
+    background:#f4f6fb;
+    padding:30px;
+}
+
+
+

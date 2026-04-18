@@ -1,0 +1,180 @@
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 260px;
+    background: linear-gradient(180deg, #0d6efd, #0b5ed7, #084298);
+    color: white;
+}
+
+.sidebar .offcanvas-header {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.menu-item {
+    display: block;
+    padding: 14px 22px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    border-left: 4px solid transparent;
+}
+
+.menu-item:hover {
+    background: rgba(255,255,255,0.15);
+    padding-left: 28px;
+    border-left: 4px solid white;
+}
+
+/* ===== BODY ===== */
+body{
+    background:#f4f6f9;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ===== NAVBAR ===== */
+.navbar{
+    height:60px;
+}
+
+.navbar-brand{
+    font-weight:600;
+    font-size:18px;
+}
+
+
+/* ===== SIDEBAR ===== */
+.sidebar{
+    width:260px;
+    background:linear-gradient(180deg,#0d6efd,#0b5ed7,#084298);
+    color:white;
+}
+
+.sidebar .offcanvas-header{
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+.menu-item{
+    display:block;
+    padding:14px 20px;
+    color:white;
+    text-decoration:none;
+    transition:0.2s;
+}
+
+.menu-item:hover{
+    background:rgba(255,255,255,0.15);
+    padding-left:25px;
+}
+
+
+/* ===== DASHBOARD ===== */
+.dashboard-container{
+    max-width:1100px;
+    margin:50px auto;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+
+/* ===== CARD ===== */
+.card-box{
+    flex:1;
+    min-width:420px;
+}
+
+.card{
+    border:none;
+    border-radius:14px;
+    padding:20px;
+    background:white;
+    transition:0.25s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.12);
+}
+
+
+/* ===== CALENDAR ===== */
+.calendar th{
+    background:#f1f3f5;
+    font-weight:600;
+}
+
+.calendar td{
+    height:42px;
+    vertical-align:middle;
+}
+
+.today{
+    background-color:#0d6efd;
+    color:white;
+    font-weight:bold;
+    border-radius:6px;
+}
+
+
+/* ===== RULES ===== */
+.rules-card{
+    padding:25px;
+}
+
+.rules-title{
+    text-align:center;
+    margin-bottom:20px;
+    font-weight:600;
+    color:#dc3545;
+}
+
+.rules-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.rules-list li{
+    padding:12px 10px;
+    border-bottom:1px solid #eee;
+    font-size:15px;
+    transition:0.2s;
+}
+
+.rules-list li:hover{
+    background:#f8f9fa;
+    padding-left:14px;
+}
+
+
+/* ===== CONTRACT WARNING ===== */
+.contract-expired-warning{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#dc3545;
+    color:white;
+    padding:12px 18px;
+    border-radius:8px;
+    font-size:14px;
+    font-weight:500;
+    box-shadow:0 6px 15px rgba(0,0,0,0.25);
+}
+
+.rules-link{
+    text-align:center;
+    margin-top:15px;
+}
+
+.rules-link a{
+    text-decoration:none;
+    font-weight:500;
+    color:#0d6efd;
+    transition:0.2s;
+}
+
+.rules-link a:hover{
+    color:#084298;
+}

@@ -1,0 +1,192 @@
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 260px;
+    background: linear-gradient(180deg, #0d6efd, #0b5ed7, #084298);
+    color: white;
+}
+
+.sidebar .offcanvas-header {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.menu-item {
+    display: block;
+    padding: 14px 22px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    border-left: 4px solid transparent;
+}
+
+.menu-item:hover {
+    background: rgba(255,255,255,0.15);
+    padding-left: 28px;
+    border-left: 4px solid white;
+}
+
+
+/* ===== DASHBOARD WRAPPER ===== */
+
+.dashboard-wrapper{
+    background: linear-gradient(135deg,#eef2ff,#f8fafc);
+    min-height:100vh;
+    padding:50px 20px;
+    font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+/* ===== CONTAINER ===== */
+
+.manager-dashboard{
+    max-width:1200px;
+    margin:auto;
+}
+
+/* ===== TITLE ===== */
+
+.dashboard-title{
+    text-align:center;
+    font-weight:800;
+    font-size:30px;
+    margin-bottom:40px;
+    color:#1e293b;
+    letter-spacing:0.5px;
+}
+
+/* ===== STATS GRID ===== */
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-bottom:45px;
+}
+
+/* ===== STAT CARD ===== */
+
+.stat-card{
+    background:white;
+    border-radius:18px;
+    padding:30px 25px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    transition:all 0.3s ease;
+    position:relative;
+    overflow:hidden;
+}
+
+.stat-card::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:5px;
+    top:0;
+    left:0;
+    background:linear-gradient(90deg,#0d6efd,#6ea8fe);
+}
+
+.stat-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 18px 40px rgba(0,0,0,0.12);
+}
+
+/* ===== STAT VALUE ===== */
+
+.stat-card h3{
+    font-size:34px;
+    font-weight:800;
+    margin:0;
+}
+
+/* ===== STAT LABEL ===== */
+
+.stat-card p{
+    margin-top:8px;
+    color:#6c757d;
+    font-size:14px;
+    letter-spacing:0.3px;
+}
+
+/* ===== COLORS ===== */
+
+.unpaid h3{
+    color:#dc3545;
+}
+
+.paid h3{
+    color:#198754;
+}
+
+/* ===== CHART WRAPPER ===== */
+
+.chart-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ===== DASHBOARD CARD ===== */
+
+.dashboard-card{
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 12px 30px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.dashboard-card:hover{
+    box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+
+/* ===== REVENUE CARD ===== */
+
+.revenue-card{
+    text-align:center;
+    max-width:420px;
+    width:100%;
+}
+
+/* ===== REVENUE TITLE ===== */
+
+.revenue-title{
+    font-size:18px;
+    font-weight:600;
+    color:#475569;
+    margin-bottom:15px;
+}
+
+/* ===== REVENUE VALUE ===== */
+
+.revenue-value{
+    font-size:42px;
+    font-weight:800;
+    color:#0d6efd;
+    margin-bottom:5px;
+}
+
+/* ===== REVENUE SUB ===== */
+
+.revenue-sub{
+    margin-top:10px;
+    font-size:13px;
+    color:#94a3b8;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width:768px){
+
+    .dashboard-title{
+        font-size:24px;
+    }
+
+    .stat-card{
+        padding:25px 20px;
+    }
+
+    .stat-card h3{
+        font-size:28px;
+    }
+
+}

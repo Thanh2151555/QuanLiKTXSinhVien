@@ -1,0 +1,17 @@
+🔴 ADMIN
+admin - 123
+🟠 MANAGER
+manager1 - 123
+manager2 - 123
+manager3 - 123
+🔵 STUDENT
+sv1 - 123
+sv2 - 123
+sv3 - 123
+sv4 - 123
+sv5 - 123
+sv6 - 123
+sv7 - 123
+sv8 - 123
+sv9 - 123
+sv10 - 123

@@ -1,0 +1,122 @@
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 260px;
+    background: linear-gradient(180deg, #0d6efd, #0b5ed7, #084298);
+    color: white;
+}
+
+.sidebar .offcanvas-header {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.menu-item {
+    display: block;
+    padding: 14px 22px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    border-left: 4px solid transparent;
+}
+
+.menu-item:hover {
+    background: rgba(255,255,255,0.15);
+    padding-left: 28px;
+    border-left: 4px solid white;
+}
+
+
+body{
+    background:#f4f6f9;
+    font-family:"Segoe UI", sans-serif;
+}
+
+/* container */
+
+.student-container{
+    max-width:720px;
+    margin:auto;
+}
+
+/* card */
+
+.student-card{
+    border-radius:14px;
+    overflow:hidden;
+}
+
+/* HEADER */
+
+.student-header{
+    background:linear-gradient(135deg,#4e73df,#224abe);
+    color:white;
+    padding:20px;
+}
+
+/* avatar */
+
+.avatar{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:white;
+    color:#4e73df;
+    font-weight:bold;
+    font-size:22px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+    margin-bottom:8px;
+}
+
+/* INFO BOX */
+
+.info-box{
+    background:#f8f9fc;
+    padding:15px;
+    border-radius:10px;
+}
+
+/* section title */
+
+.section-title{
+    font-size:16px;
+    margin-bottom:10px;
+    font-weight:600;
+}
+
+/* info row */
+
+.info-row{
+    margin-bottom:8px;
+}
+
+.info-row span{
+    font-size:12px;
+    color:#777;
+}
+
+.info-row p{
+    margin:0;
+    font-size:14px;
+    font-weight:500;
+}
+
+/* price */
+
+.price{
+    color:#e74a3b;
+    font-weight:600;
+}
+
+/* CONTRACT */
+
+.contract-box{
+    background:#f8f9fc;
+    border-radius:10px;
+    padding:15px;
+    text-align:center;
+}
+
+

@@ -1,0 +1,83 @@
+/*===== SIDEBAR ===== */
+.sidebar {
+    width: 260px;
+    background: linear-gradient(180deg, #0d6efd, #0b5ed7, #084298);
+    color: white;
+}
+
+.sidebar .offcanvas-header {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.menu-item {
+    display: block;
+    padding: 14px 22px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    border-left: 4px solid transparent;
+}
+
+.menu-item:hover {
+    background: rgba(255,255,255,0.15);
+    padding-left: 28px;
+    border-left: 4px solid white;
+}
+
+body{
+    background: #f5f7fb;
+}
+
+/* container */
+
+.create-student-container{
+    margin-top:40px;
+    max-width:900px;
+}
+
+/* card */
+
+.create-student-card{
+    border:none;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.1);
+}
+
+/* header */
+
+.create-student-card .card-header{
+    background:linear-gradient(135deg,#0d6efd,#4e8cff);
+    color:white;
+    font-weight:600;
+    border-radius:12px 12px 0 0;
+}
+
+/* label */
+
+.form-label{
+    font-weight:500;
+}
+
+/* input */
+
+.form-control,
+.form-select{
+    border-radius:8px;
+    padding:10px;
+}
+
+/* button */
+
+.create-btn{
+    padding:10px 30px;
+    font-size:16px;
+    border-radius:8px;
+}
+
+/* hover effect */
+
+.create-btn:hover{
+    transform:scale(1.05);
+    transition:0.2s;
+}
